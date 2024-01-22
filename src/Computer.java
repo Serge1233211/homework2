@@ -11,10 +11,6 @@ public class Computer implements Identifiable {
         this.name = name;
     }
 
-    @Override
-    public void setId(Long id) {
-        
-    }
 
     // A getter method to return the id of the computer
     public long getId() {

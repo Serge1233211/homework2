@@ -11,4 +11,9 @@ public class Employee extends Person {
         // Some code to implement the work logic
         System.out.println("Employee " + getName() + " is working.");
     }
+
+    @Override
+    public void setId(long id) {
+
+    }
 }

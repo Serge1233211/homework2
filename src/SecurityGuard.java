@@ -1,5 +1,5 @@
 // A class to represent a security guard, which is a subclass of employee
-public class SecurityGuard extends Employee {
+public class SecurityGuard extends Person {
     // A constructor to initialize the id and name of the security guard
     public SecurityGuard(long id, String name) {
         // Calling the superclass constructor
@@ -10,5 +10,9 @@ public class SecurityGuard extends Employee {
     public void checkSecurity() {
         // Some code to implement the security check logic
         System.out.println("Security guard " + getName() + " is checking security.");
+    }
+
+    @Override
+    public void setId(long id) {
     }
 }
