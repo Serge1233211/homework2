@@ -1,19 +1,30 @@
-// A class to represent an employee, which is a subclass of person
-public class Employee extends Person {
-    // A constructor to initialize the id and name of the employee
-    public Employee(long id, String name) {
-        // Calling the superclass constructor
-        super(id, name);
+// A class to represent an employee
+public class Employee extends Person implements OfficeSupportEntity, ComputerSupportable {
+    // Fields for the office and the computer
+    private Office office;
+    private Computer computer;
+
+    // A constructor to initialize the fields
+    public Employee(Long id, String name, Office office, Computer computer) {
+        super(id, name); // Calling the superclass constructor
+        this.office = office;
+        this.computer = computer;
     }
 
-    // A method to perform the work
-    public void work() {
-        // Some code to implement the work logic
-        System.out.println("Employee " + getName() + " is working.");
+    // Getters and setters for the office and the computer
+    public Office getOffice() {
+        return office;
     }
 
-    @Override
-    public void setId(long id) {
+    public void setOffice(Office office) {
+        this.office = office;
+    }
 
+    public Computer getComputer() {
+        return computer;
+    }
+
+    public void setComputer(Computer computer) {
+        this.computer = computer;
     }
 }

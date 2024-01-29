@@ -1,8 +1,12 @@
 // An interface to represent an identifiable entity
 public interface Identifiable {
-    // A method to set the id of the entity
-    void setId(long id);
+    // Methods to set and get the id
+    void setId(Long id);
+    Long getId();
 
-    // A method to get the id of the entity
-    long getId();
+    // Default method to compare objects
+    default boolean equalTo(Identifiable identifiable) {
+        return this.getClass().equals(identifiable.getClass()) && getId().equals(identifiable.getId());
+    }
 }
+
