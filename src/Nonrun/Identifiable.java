@@ -1,3 +1,5 @@
+package Nonrun;
+
 // An interface to represent an identifiable entity
 public interface Identifiable {
     // Methods to set and get the id

@@ -1,3 +1,5 @@
+package Nonrun;
+
 // An abstract class to represent a person
 public abstract class Person implements Identifiable {
     // Fields for id and name

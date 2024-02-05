@@ -1,11 +1,13 @@
-// A class to represent a computer
-public class Computer implements Identifiable {
+package Nonrun;
+
+// A class to represent an office
+public class Office implements Identifiable {
     // Fields for id and name
     private Long id;
     private String name;
 
     // A constructor to initialize the fields
-    public Computer(Long id, String name) {
+    public Office(Long id, String name) {
         this.id = id;
         this.name = name;
     }

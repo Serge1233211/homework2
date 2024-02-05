@@ -1,11 +1,13 @@
-// A class to represent a security guard
-public class SecurityGuard extends Person implements OfficeSupportEntity, ComputerSupportable {
+package Nonrun;
+
+// A class to represent an employee
+public class Employee extends Person implements OfficeSupportEntity, ComputerSupportable {
     // Fields for the office and the computer
     private Office office;
     private Computer computer;
 
     // A constructor to initialize the fields
-    public SecurityGuard(Long id, String name, Office office, Computer computer) {
+    public Employee(Long id, String name, Office office, Computer computer) {
         super(id, name); // Calling the superclass constructor
         this.office = office;
         this.computer = computer;
@@ -26,10 +28,5 @@ public class SecurityGuard extends Person implements OfficeSupportEntity, Comput
 
     public void setComputer(Computer computer) {
         this.computer = computer;
-    }
-
-    // A method to perform security check
-    public void checkSecurity() {
-        // Some code to check security
     }
 }
