@@ -19,4 +19,8 @@ public class Courier extends Person implements ComputerSupportable {
     public void setComputer(Computer computer) {
         this.computer = computer;
     }
+    @Override
+    public void printname() {
+        System.out.println(getName()+":"+getId());
+    }
 }

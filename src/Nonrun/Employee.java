@@ -31,4 +31,9 @@ public class Employee extends Person implements OfficeSupportEntity, ComputerSup
     public void setComputer(Computer computer) {
         this.computer = computer;
     }
+    @Override
+    public void printname() {
+        System.out.println(getName()+":"+getId());
+    }
 }
+
