@@ -8,5 +8,4 @@ public class Main {
         Office marketing = new Office(3L, "Marketing");
         Computer hp = new Computer(3L, "HP");
 
-        // Printing the id
     }}
