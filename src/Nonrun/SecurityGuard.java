@@ -1,5 +1,7 @@
 package Nonrun;
 
+import Nonrun.Interface.*;
+
 // A class to represent a security guard
 public class SecurityGuard extends Person implements OfficeSupportEntity, ComputerSupportable {
     // Fields for the office and the computer

@@ -1,4 +1,6 @@
-package Nonrun;
+package Nonrun.Interface;
+
+import Nonrun.Office;
 
 // An interface to represent an office-supportable entity
 public interface OfficeSupportEntity extends ComputerSupportable {

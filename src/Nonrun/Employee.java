@@ -1,5 +1,7 @@
 package Nonrun;
 
+import Nonrun.Interface.*;
+
 // A class to represent an employee
 public class Employee extends Person implements OfficeSupportEntity, ComputerSupportable {
     // Fields for the office and the computer

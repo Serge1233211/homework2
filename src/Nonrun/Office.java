@@ -1,5 +1,7 @@
 package Nonrun;
 
+import Nonrun.Interface.*;
+
 // A class to represent an office
 public class Office implements Identifiable {
     // Fields for id and name

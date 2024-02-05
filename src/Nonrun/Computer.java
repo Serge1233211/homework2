@@ -1,5 +1,7 @@
 package Nonrun;
 
+import Nonrun.Interface.*;
+
 // A class to represent a computer
 public class Computer implements Identifiable {
     // Fields for id and name

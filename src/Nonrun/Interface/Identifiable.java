@@ -1,4 +1,4 @@
-package Nonrun;
+package Nonrun.Interface;
 
 // An interface to represent an identifiable entity
 public interface Identifiable {
