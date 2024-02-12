@@ -30,5 +30,7 @@ public abstract class Person implements Identifiable {
     public void setName(String name) {
         this.name = name;
     }
-    public abstract void printname();
+    public void printname(){
+        System.out.println("name: "+getName()+",id ;"+getId());
+    }
 }

@@ -32,13 +32,5 @@ public class SecurityGuard extends Person implements OfficeSupportEntity, Comput
         this.computer = computer;
     }
 
-    // A method to perform security check
-    public void checkSecurity() {
-        // Some code to check security
-    }
 
-    @Override
-    public void printname() {
-        System.out.println(getName()+":"+getId());
-    }
 }
