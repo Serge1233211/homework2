@@ -15,6 +15,7 @@ public class Main {
         charlie.printname();
         Gerald.printname();
         Office GO = Gerald.getOffice();
+        System.out.println(marketing.getName());
         System.out.println("Gerald works in the office: "+ GO.getName());
 
     }}

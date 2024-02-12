@@ -31,6 +31,6 @@ public abstract class Person implements Identifiable {
         this.name = name;
     }
     public void printname(){
-        System.out.println("name: "+getName()+",id ;"+getId());
+        System.out.println("name: "+getName()+",id; "+getId());
     }
 }
