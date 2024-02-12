@@ -2,19 +2,17 @@ package Nonrun;
 
 import Nonrun.Interface.*;
 
-// A class to represent an office
+import java.util.List;
+
 public class Office implements Identifiable {
-    // Fields for id and name
     private Long id;
     private String name;
 
-    // A constructor to initialize the fields
     public Office(Long id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    // Getters and setters for the fields
     public Long getId() {
         return id;
     }
@@ -29,5 +27,14 @@ public class Office implements Identifiable {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    // Method to find people by office
+    public List<Person> findPeopleByOffice() {
+        // Implement your logic here to retrieve people associated with this office
+        // You can query a database or use any other data source
+        // Return a list of Person objects
+        // For demonstration purposes, I'll return an empty list
+        return List.of();
     }
 }

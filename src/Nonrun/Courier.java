@@ -6,7 +6,7 @@ import Nonrun.Interface.*;
 public class Courier extends Person implements ComputerSupportable {
     Computer computer;
     // A constructor to initialize the fields
-    public Courier(Long id, String name) {
+    public Courier(Long id, String name, Office office) {
         super(id, name); // Calling the superclass constructor
     }
     public Computer getComputer() {
